@@ -1,10 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=git, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" />
+    
     <title>Bank Opening Form</title>
   </head>
   <body>
@@ -33,19 +35,22 @@
         <label>Input your age (years): <input type="number" name="age" min="13" max="120" />
 			  </label>
         <label>How did you hear about us?
-          <select name="referrer">
+          <select name="referrer" class="select-opt" >
             <option value="">(select one)</option>
             <option value="1">employee referal</option>
-            <option value="2">facebook</option>
-            <option value="3">instagram</option>
-            <option value="3">twitter</option>
-            <option value="4">Other</option>
+            <option value="2">Facebook</option>
+            <option value="3">Instagram</option>
+            <option value="4">Twitter</option>
+            <option value="5">Other</option>
           </select>
+          <div class="result"></div>
         </label>
         <label>Enter your address and give a direction to your house:
           <textarea name="bio" rows="10" cols="100" placeholder="GPS address, postal address, etc"></textarea>
 			  </label>
       </fieldset>
       <input type="submit" value="Submit" class="btn" />
+      <!-- javascript -->
+    <script src="./app.js"></script>
   </body>
 </html>
