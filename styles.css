@@ -224,6 +224,9 @@ textarea {
   box-shadow: var(--light-shadow);
 }
 
+textarea {
+  color: var(--clr-primary-1);
+}
 .inline {
   width: unset;
   margin: 0 0.5em 0 0;

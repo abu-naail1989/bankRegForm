@@ -8,7 +8,7 @@ values.forEach(function (item) {
     if (a == "5") {
       document.querySelector(
         ".result"
-      ).innerHTML = `<div><label>Specify: <input type="text"/><label></div>`;
+      ).innerHTML = `<textarea rows="5" cols="10"></textarea>`;
     } else {
       document.querySelector(".result").innerHTML = "";
     }
